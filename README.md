@@ -4,7 +4,7 @@ This CLI uses [Demucs](https://github.com/facebookresearch/demucs) and [Whisperx
 
 ## Installation
 
-To get started, you'll need Python 3.9 and [ffmpeg](https://ffmpeg.org/) installed. Then, install the CLI with pip
+To get started, you'll need Python 3.8+ and [ffmpeg](https://ffmpeg.org/) installed. Then, install the CLI with pip
 
 ```
 pip install git+https://github.com/jaxgeller/yt-karaoke.git
