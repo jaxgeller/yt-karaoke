@@ -1,6 +1,14 @@
 # YT-Karaoke
 
-This CLI uses [Demucs](https://github.com/facebookresearch/demucs) and [Whisperx](https://github.com/m-bain/whisperX) to extract vocals from a YouTube video, transcribe the lyrics, and then generate a karaoke video.
+This CLI uses [Demucs](https://github.com/facebookresearch/demucs) and [Whisperx](https://github.com/m-bain/whisperX) to extract vocals from a YouTube video, transcribe the lyrics on a per-character level, and then generate a karaoke video with real-time subtitles. 
+
+
+
+
+https://user-images.githubusercontent.com/4494509/231500841-37644652-3b45-481b-ae83-5c3c731ceb53.mp4
+
+_Demo of "All Star" generated using the highest settings._
+
 
 ## Installation
 
@@ -23,9 +31,3 @@ To run with the highest possible accuracy, use
 ```
 yt_karaoke "https://www.youtube.com/watch?v=dQw4w9WgXcQ" --device cuda --model large --align_model WAV2VEC2_ASR_LARGE_LV60K_960H --shifts 10
 ```
-
-## Results
-
-You'll get your best results running this CLI with cuda on the largest whisper models, as well as good quality audio from Youtube. See this Colab notebook for a demo of the CLI running with GPU's and the largest models.
-
-In my testing, rock songs tend to do very well while rap accuracy tends to suffer.
