@@ -9,7 +9,7 @@ import torch
 import whisper
 import whisperx
 import yt_dlp
-from ass_parser import write_ass_file
+from .ass_parser import write_ass_file
 
 
 def check_err(result):
