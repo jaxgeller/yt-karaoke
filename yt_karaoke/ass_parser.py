@@ -20,7 +20,8 @@ def secs_to_hhmmss(secs):
     hh, mm = divmod(mm, 60)
     return f"{hh:0>1.0f}:{mm:0>2.0f}:{ss:0>2.2f}"
 
-
+# See http://www.tcax.org/docs/ass-specs.htm
+# and this tutorial on Aegisub https://www.youtube.com/watch?v=pfrABpkNWsE
 def generate_dialogue(transcript):
     lines = []
     for segment in transcript["segments"]:
