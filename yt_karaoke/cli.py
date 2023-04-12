@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 import argparse
 import os
 import subprocess
@@ -82,7 +84,7 @@ def main():
         f"--out={separated_path}",
         f"{mp3_path}",
     ]
-    result = subprocess.run(cmd, capture_output=True, text=True)
+    result = subprocess.run(cmd, encoding="utf8", capture_output=True, text=True)
     check_err(result)
 
     print("Separated vocals, transcribing with Whisper")
@@ -130,7 +132,7 @@ def main():
         "karaoke.mp4",
     ]
 
-    result = subprocess.run(cmd, capture_output=True, text=True)
+    result = subprocess.run(cmd, encoding="utf8", capture_output=True, text=True)
     check_err(result)
 
     print("karaoke.mp4 ready!")
