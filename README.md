@@ -2,6 +2,14 @@
 
 This CLI uses [Demucs](https://github.com/facebookresearch/demucs) and [Whisperx](https://github.com/m-bain/whisperX) to extract vocals from a YouTube video, transcribe the lyrics, and then generate a karaoke video.
 
+
+
+
+https://user-images.githubusercontent.com/4494509/231500841-37644652-3b45-481b-ae83-5c3c731ceb53.mp4
+
+_Demo of "All Star" generated using the highest settings._
+
+
 ## Installation
 
 To get started, you'll need Python 3.8+ and [ffmpeg](https://ffmpeg.org/) installed. Then, install the CLI with pip
