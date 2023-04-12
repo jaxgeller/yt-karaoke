@@ -1,0 +1,3 @@
+yt-dlp==2023.3.4
+demucs==4.0.0
+git+https://github.com/m-bain/whisperx.git

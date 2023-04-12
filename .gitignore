@@ -1,0 +1,6 @@
+.DS_Store
+data/
+.vscode/
+karaoke.mp4
+.python-version
+*.pyc
