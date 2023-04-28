@@ -1,6 +1,6 @@
 # YT-Karaoke
 
-This CLI uses [Demucs](https://github.com/facebookresearch/demucs) and [Whisperx](https://github.com/m-bain/whisperX) to extract vocals from a YouTube video, transcribe the lyrics on a per-character level, and then generate a karaoke video with real-time subtitles.
+This CLI uses [Demucs](https://github.com/facebookresearch/demucs) and [Whisperx](https://github.com/m-bain/whisperX) to extract vocals from a YouTube video, transcribe the lyrics on a per-character level, and then generate a karaoke video with real-time subtitles. For more details see [this blog post](https://www.jaxgeller.com/using-ai-to-turn-youtube-videos-into-karaoke/).
 
 https://user-images.githubusercontent.com/4494509/231500841-37644652-3b45-481b-ae83-5c3c731ceb53.mp4
 
